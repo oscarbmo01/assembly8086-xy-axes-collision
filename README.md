@@ -1,32 +1,49 @@
-# Dynamic Bar Chart, Vanilla Javascript 
+# Assembly 8086 Collision In Axes  
 
-<img src="favicon.ico" width="20%" title="">
+<img src="img/favicon.ico" width="20%" title="">
 
 ## About The Project
 
-Dynamic bar chart encoded with vanilla javascript, html, css and json.
+Program that detects collisions in the x and y axes to generate the bounce of a text string.
 
 ### Built with
 
-* JavaScript
-* CSS
-* HTML
-* JSON
-
+* DOSBox
+* VSC
 
 ## Getting Started
 
 ### Installing
 
-1. Clone the repo
+1. Install DOSBox
     ```sh
-    git clone https://github.com/oscarbmo01/bar-chart-js-css-html-json.git
+    sudo apt-get install dosbox
+    ```
 
-2. Open the index.html file in a web browser
+2. Clone the repo
+    ```sh
+    git clone https://github.com/oscarbmo01/assembly8086-xy-axes-collision.git
 
 ## Usage
 
-![Bar Chart](/demo.png "Bar Chart")
+1. Open DOSBox  
+2. Mount drice C and point to the path of the x-y-axis.asm file  
+    ```sh
+    mount c: /home/...
+    ```
+3. Compile the .asm file to .obj
+    ```sh
+    TASM.EXE x-y-axis.asm
+    ```
+4. Create the .exe file from the .obj
+    ```sh
+    TLINK.EXE X-Y-AXIS.obj
+    ```
+5. Run the X-Y-AXIS.EXE file
+    ```sh
+    TLINK.EXE X-Y-AXIS.obj
+    ```
+<img src="img/img02.png" width="60%" title="Control Panel">
 
 ## Licence
 
