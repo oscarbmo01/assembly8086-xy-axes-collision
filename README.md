@@ -37,13 +37,13 @@ Program that detects collisions in the x and y axes to generate the bounce of a 
     ```
 4. Create the .exe file from the .obj
     ```sh
-    TLINK.EXE X-Y-AXIS.obj
+    TLINK.EXE X-Y-AXIS.OBJ
     ```
 5. Run the X-Y-AXIS.EXE file
     ```sh
-    TLINK.EXE X-Y-AXIS.obj
+    ./X-Y-AXIS.EXE
     ```
-<img src="img/img02.png" width="60%" title="Control Panel">
+<img src="img/img02.png" width="80%" title="Control Panel">
 
 ## Licence
 
